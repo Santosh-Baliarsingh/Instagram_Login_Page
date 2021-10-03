@@ -1,0 +1,165 @@
+/* Google Font Import Section */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Universal Selector Section  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* Body Background Style */
+body{
+    background: #FAFAFA;
+}
+/* Container Section Style Star */
+.container{
+    width: 350px;
+    height: 420px;
+    border: 1px solid #DBDBDB;
+    margin:30px auto 10px auto;
+    background: #FFFFFF;
+}
+/* COntainer Image Style Starts */
+.container img{
+    width: 180px;
+    height: 60px;
+    margin: 20px auto 25px auto;
+    display: block;
+    
+}
+/* Container Image Style Ends  */
+
+/* Div Input Section Style */
+div input{
+    width: 270px;
+    height: 40px;
+    padding: 9px 0px 7px 8px;
+    display: block;
+    margin: 10px 35px;
+    border: 1px solid rgb(185, 182, 182);
+    background: #FAFAFA;
+    outline:none;
+}
+/* Login Button Style  */
+.login_btn{
+    margin: 10px 35px;
+    padding: 5px 116px;
+    text-align: center;
+    font-size: 14px;
+    background: #0095F6;
+    color: #FFFFFE;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Separator Section Style */
+.separator{
+    margin: 20px 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #999;
+ 
+}
+/* Separator Paragraph Style */
+.separator p{
+    font-size: 15px;
+}
+/* Separator line Style  */
+.separator .line{
+    height: 1px;
+    width: 110px;
+    background: #999;
+}
+/* Facebook login Section Style */
+.f-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    color: #385185;
+    cursor: pointer;
+}
+.fab{
+    padding: 10px;
+    font-size: 20px;
+}
+.f-login p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.forget-password p{
+    text-align: center;
+    font-size: 13px;
+    color: #385185;
+    cursor: pointer;
+}
+/* SignUp Section Style  */
+.signup{
+    width: 350px;
+    height: 60px;
+    border: 1px solid #DBDBDB;
+    margin:15px auto;
+    background: #FFFFFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup p{
+    font-size: 14px;
+}
+.signup span{
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* AppStore Section Style */
+.appstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appstore img{
+    margin: 10px;
+    cursor: pointer;
+}
+.google img{
+    width: 130px;
+}
+.apple img{
+    width: 130px;
+}
+/* Contenets Section Style  */
+.contents ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.contents li{
+    margin:20px 8px 10px 8px;
+    font-size: 13px;
+    word-spacing: 5px;
+    color: #8E8E9C;
+    cursor: pointer;
+}
+/* CopyRight Section Style */
+.copyright ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.copyright li{
+    font-size: 13px;
+    color: #8E8E9C;
+    margin: 5px 8px 20px 8px;
+    cursor: pointer;
+}
